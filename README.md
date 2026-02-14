@@ -1,2 +1,67 @@
-# RACE-RANK-Rule-Classifier
-RACE-RANK: A hybrid rule-based classifier that enhances RACER using PageRank-based rule ordering and controlled rule merging.
+# RACE-RANK  
+## A Hybrid Rule-Based Classifier Using PageRank Algorithm
+
+---
+
+## 📖 Overview
+
+**RACE-RANK** is a hybrid rule-based classification framework that enhances the Rule Aggregation ClassifiER (RACER) by introducing a graph-based rule ordering mechanism using the PageRank algorithm.
+
+Rule-based classifiers are widely used in domains such as healthcare, finance, and cybersecurity due to their interpretability and strong predictive performance. Although RACER demonstrates high effectiveness, it faces two main challenges:
+
+1. Rule ordering can significantly influence classification accuracy.
+2. Excessive rule merging may lead to over-generalization and reduced performance.
+
+RACE-RANK addresses these issues by:
+
+- Applying a PageRank-based graph model to rank and organize rules.
+- Introducing a controlled stopping strategy that halts rule merging after the first iteration.
+
+The proposed method improves classification performance while preserving interpretability.
+
+## 🧠 Methodology
+
+RACE-RANK consists of three main components:
+
+### 1️⃣ Initial Rule Generation
+Rules are generated using the original RACER framework.
+
+### 2️⃣ Graph-Based Rule Ranking
+- Each rule is represented as a node in a graph.
+- Relationships between rules define edges.
+- Rule importance is computed using:
+  - **PageRank** (primary method)
+  - Betweenness Centrality (for comparison)
+  - Eigenvector Centrality (for comparison)
+
+The ranked rules are then used in the classification process.
+
+### 3️⃣ Controlled Rule Merging
+Unlike RACER, which may continue merging rules until convergence, RACE-RANK:
+
+- Stops merging after the first iteration.
+- Prevents excessive generalization.
+- Maintains discriminative rule quality.
+
+---
+
+## 📊 Experimental Evaluation
+
+RACE-RANK was evaluated on:
+
+- **29 benchmark datasets**
+  - UCI Machine Learning Repository
+  - OpenML
+
+### Comparisons
+- RACER
+- 14 additional machine learning classifiers
+- Alternative ranking strategies:
+  - Betweenness Centrality
+  - Eigenvector Centrality
+
+### Evaluation Metrics
+- Accuracy
+- F1-Score
+
+Experimental results demonstrate consistent improvements over RACER in both accuracy and F1-score.
