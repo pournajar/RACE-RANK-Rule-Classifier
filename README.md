@@ -103,6 +103,7 @@ If you use this work in your research, please cite:
 }
 ```
 
+Read the full paper on Applied Soft Computing Journal:
 [RACE-RANK: A hybrid rule-based classifier using PageRank algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1568494625015261)
 
 
