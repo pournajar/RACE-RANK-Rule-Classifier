@@ -112,7 +112,7 @@ This work is based on the original **ROPAC: rule optimized aggregation classifie
 
 Original paper:
 Mokhtari, Melvin, and Alireza Basiri, *ROPAC: rule optimized aggregation classifier*, Expert Systems with Applications , 2024.  
-[ROPAC: rule optimized aggregation classifier]([URL](https://www.researchgate.net/profile/Melvin-Mokhtari/publication/379633484_ROPAC_Rule_OPtimized_Aggregation_Classifier/links/661c134466ba7e2359d96b6d/ROPAC-Rule-OPtimized-Aggregation-Classifier.pdf))
+[ROPAC: rule optimized aggregation classifier](https://www.researchgate.net/profile/Melvin-Mokhtari/publication/379633484_ROPAC_Rule_OPtimized_Aggregation_Classifier/links/661c134466ba7e2359d96b6d/ROPAC-Rule-OPtimized-Aggregation-Classifier.pd)
 
 
 # 🤝 Contributing
