@@ -81,11 +81,15 @@ Experimental results demonstrate consistent improvements over RACER in both accu
 
 Run the main experiment:
 
-```python main.py --dataset DATASET_NAME ```
+```
+python main.py --dataset DATASET_NAME
+ ```
 
 Example:
 
-```python main.py --dataset adult```
+```
+python main.py --dataset adult
+```
 
 # 📌 Citation
 If you use this work in your research, please cite:
