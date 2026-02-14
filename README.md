@@ -103,6 +103,9 @@ If you use this work in your research, please cite:
 }
 ```
 
+[RACE-RANK: A hybrid rule-based classifier using PageRank algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1568494625015261)
+
+
 # 🤝 Contributing
 
 Contributions, suggestions, and bug reports are welcome.
