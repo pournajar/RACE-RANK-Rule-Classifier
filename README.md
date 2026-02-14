@@ -37,13 +37,14 @@ Rules are generated using the original RACER framework.
 The ranked rules are then used in the classification process.
 
 ### 3️⃣ Controlled Rule Merging
+
 Unlike RACER, which may continue merging rules until convergence, RACE-RANK:
 
 - Stops merging after the first iteration.
 - Prevents excessive generalization.
 - Maintains discriminative rule quality.
 
----
+
 
 ## 📊 Experimental Evaluation
 
@@ -54,6 +55,7 @@ RACE-RANK was evaluated on:
   - OpenML
 
 ### Comparisons
+
 - RACER
 - 14 additional machine learning classifiers
 - Alternative ranking strategies:
@@ -61,7 +63,44 @@ RACE-RANK was evaluated on:
   - Eigenvector Centrality
 
 ### Evaluation Metrics
+
 - Accuracy
 - F1-Score
 
 Experimental results demonstrate consistent improvements over RACER in both accuracy and F1-score.
+
+# Available Options
+
+```
+--ranking_method    pagerank | betweenness | eigenvector
+--merge_strategy    controlled | full
+--metric            accuracy | f1
+```
+
+# 🚀 Usage
+
+Run the main experiment:
+
+```python main.py --dataset DATASET_NAME ```
+
+Example:
+
+```python main.py --dataset adult```
+
+# 📌 Citation
+If you use this work in your research, please cite:
+
+```
+@article{yourcitation2025,
+  title={RACE-RANK: A Hybrid Rule-Based Classifier Using PageRank Algorithm},
+  author={Alireza Basiri, Nasrin Pournajar},
+  journal={Applied Soft Computing},
+  year={2025}
+}
+```
+
+# 🤝 Contributing
+
+Contributions, suggestions, and bug reports are welcome.
+Please open an issue or submit a pull request.
+
