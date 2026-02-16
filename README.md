@@ -95,7 +95,7 @@ python main.py --dataset adult
 If you use this work in your research, please cite:
 
 ```
-@article{yourcitation2025,
+@article{basiri2025race,
   title={RACE-RANK: A Hybrid Rule-Based Classifier Using PageRank Algorithm},
   author={Alireza Basiri, Nasrin Pournajar},
   journal={Applied Soft Computing},
